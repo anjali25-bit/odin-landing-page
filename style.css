@@ -1,69 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    font-family: Roboto Slab, serif;
+    font-family: Roboto, sans-serif;
 }
 
 * {
     margin: 0;
     padding: 0;
-}
-.first-section {
-    background-color: #1F2937;    
+    box-sizing: border-box;
 }
 
-#header-logo {
+.first-section {
+    background-color: #1F2937;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Header Styling*/
+.header-logo {
     font-size: 24px;
-    color: #F9FAF8;
+    color: hsl(90, 17%, 98%);
+    font-weight: 900;
 }
 
 .header-link {
-   font-size: 18px;
-   color: #E5E7EB; 
-   margin: 10px;
+    font-size: 18px;
+    margin: 10px;
+    color: #E5E7EB;
 }
 
 ul {
+    list-style-type: none;
     display: flex;
     flex-direction: row;
-    list-style-type: none;
+    gap: 0px;
 }
 
 .header {
     display: flex;
     flex-direction: row;
-}
-
-.header-left,.header-right{
-    display: flex;
-    width: 50%;
-    justify-content: space-between;
     align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 24px 0;
 }
 
+/*Content Section 1 Styling*/
 h1 {
     font-size: 48px;
-    font-weight: 900;
-    color: #F9FAF8
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 .button-1 {
-    background-color: #3882F6;
+    background-color: #3882F6;   
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 5px;
+    width: 120px;
+    border: none;
 }
 
-.content-left,.content-right {
-    display: flex;
+.content-1-left {
+    display: flex; 
+    width: 50%;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    flex: 1;
+    gap: 10px;
+    min-width: 0;
+}
+
+.para-1 {
+    font-size: 18px;
+    color: #E5E7EB;
+    line-height: 1.1;
 }
 
 .content-1 {
-    display: flex; 
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+    gap: 32px;
+    width: 100%
 }
 
-content-left {
-    display: flex; 
-    
+.content-1,.para-1 {
+    margin-top: 8px;
 }
+    
+img {
+    max-width: 100%;
+    width: 450px;
+    height: auto;
+}
+
+.content-1-right {
+    display: flex;
+    flex: 1;
+    min-width: 0;
+    justify-content: flex-end;
+}
+
+/*Content Section 2 Styling*/
