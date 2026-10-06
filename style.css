@@ -149,3 +149,34 @@ h2 {
     padding: 45px;
     margin-bottom: 40px;
 }
+
+/*Third Section Styling */
+.third-section {
+    background-color:#E5E7EB;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.quote {
+    font-size: 36px;
+    text-align: left;
+    text-wrap: wrap;
+    font-weight: 300px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 0 90px;
+}
+
+#para-3 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 150px;
+}
+
+.name {
+    text-align: end;
+    font-size: 18px;
+}
