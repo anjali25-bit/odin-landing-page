@@ -180,3 +180,56 @@ h2 {
     text-align: end;
     font-size: 18px;
 }
+
+/* Fourth Section Styling*/
+
+.section-container {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 50px;
+    display: flex;
+    width: 85%;
+    flex-direction: row;
+    background-color: #3882F6;
+    justify-content: space-between;
+    gap: 60px;
+    border: none;
+}
+
+
+.button-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+    background-color: #3882F6;   
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 5px;
+    width: 120px;
+    border: 2px solid white;
+    color: white;
+}
+
+.box-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px;
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fourth-section{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 90px;
+    padding: 0 40px;
+    color: white;
+}
